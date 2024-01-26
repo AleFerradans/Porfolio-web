@@ -1,0 +1,75 @@
+---
+import Social from "./Social.astro"
+---
+
+<main class="flex justify-center items-center flex-col-reverse
+    lg:mt-14
+    px-8
+    sm:flex-col-reverse
+    sm:mt-6
+    md:flex-row
+    lg:flex-row">
+
+    <section id="sobre-mi" class="flex justify-center pt-8 flex-col w-96 
+    sm:w-auto
+    sm:py-10
+    md:w-[400px]
+    lg:flex lg:pb-24 lg:justify-center lg:w-[600px] lg:mb-10 py-24">
+
+        <p class="font-body pb-3 font-bold text-3xl
+        bg-gradient-to-r
+      from-blue-400 via-indigo-400 to-purple-400
+        text-transparent bg-clip-text
+        md:justify-start
+        text-center
+        sm:text-center
+        md:text-left
+        lg:text-left">
+        Hey!
+        </p>
+
+        <h1 class="text-center sm:text-center pb-2 text-white text-3xl md:text-left md:text-4xl lg:text-5xl font-black 
+        leading-tight lg:w-full">Soy Alexis Ferradans</h1>
+
+        <h2 class="text-center font-extralight mb-5 mt-1 sm:text-center sm:text-2xl md:text-left lg:text-3xl text-wrap xl:text-left">
+            Desarrollador <span
+                class="block-inline opacity-80 font-extrabold bg-gradient-to-r
+             from-blue-400 via-indigo-400 to-purple-400
+               text-transparent bg-clip-text">
+               Frontend
+            </span>
+        </h2>
+
+        <p class="text-pretty text-center sm:text-balance sm:text-center md:text-left md:text-balance lg:text-pretty leading-6 font-extralight font-body tracking-wide 
+        opacity-80 sm:w-full md:w-[550px] sm:pt-0 sm:text-base md:text-base lg:text-lg lg:leading-relaxed xl:text-left">
+            Con sólida comprensión del <span class="text-purple-400">desarrollo y diseño web</span> creando
+            experiencias increíbles y soluciones digitales.
+        </p>
+
+        <p class="font-medium
+        text-center
+        sm:text-sm
+        sm:text-center 
+        md:text-left
+        lg:text-left
+        xl:text-left
+        md:text-sm lg:pt-5 lg:text-base font-body tracking-widest opacity-90 pt-2">
+            Montevideo, Uruguay <i class="text-xs md:text-sm lg:text-base xl:text-base fa-solid fa-location-dot"></i>
+        </p>
+        <!-- REDES SOCIALES -->
+        <Social></Social>
+
+    </section>
+
+    <!-- IMAGEN -->
+    <section class="flex justify-center my-5
+    sm:flex sm:w-auto
+    md:w-80 
+    lg:w-72 
+    lg:flex lg:pb-20">
+
+        <img class="size-28 object-cover sm:size-28 md:size-44 lg:size-52 rounded-full" src="public/foto.png" loading="lazy" alt="foto-Alexis">
+
+    </section>
+
+</main>
